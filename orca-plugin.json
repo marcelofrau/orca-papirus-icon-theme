@@ -1,0 +1,148 @@
+{
+  "manifestVersion": 2,
+  "id": "papirus-icon-theme",
+  "name": "Papirus Icon Theme",
+  "version": "1.0.0",
+  "description": "Papirus file and folder icons for Orca, with 25 selectable folder colors.",
+  "author": {
+    "name": "Marcelo Frau",
+    "url": "https://github.com/marcelofrau"
+  },
+  "license": "GPL-3.0-only",
+  "repository": "https://github.com/marcelofrau/orca-papirus-icon-theme",
+  "homepage": "https://github.com/marcelofrau/orca-papirus-icon-theme",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "papirus-adwaita",
+        "title": "Papirus Adwaita",
+        "path": "icons/themes/adwaita.json"
+      },
+      {
+        "id": "papirus-black",
+        "title": "Papirus Black",
+        "path": "icons/themes/black.json"
+      },
+      {
+        "id": "papirus-blue",
+        "title": "Papirus Blue",
+        "path": "icons/themes/blue.json"
+      },
+      {
+        "id": "papirus-bluegrey",
+        "title": "Papirus Blue Grey",
+        "path": "icons/themes/bluegrey.json"
+      },
+      {
+        "id": "papirus-breeze",
+        "title": "Papirus Breeze",
+        "path": "icons/themes/breeze.json"
+      },
+      {
+        "id": "papirus-brown",
+        "title": "Papirus Brown",
+        "path": "icons/themes/brown.json"
+      },
+      {
+        "id": "papirus-carmine",
+        "title": "Papirus Carmine",
+        "path": "icons/themes/carmine.json"
+      },
+      {
+        "id": "papirus-cyan",
+        "title": "Papirus Cyan",
+        "path": "icons/themes/cyan.json"
+      },
+      {
+        "id": "papirus-darkcyan",
+        "title": "Papirus Dark Cyan",
+        "path": "icons/themes/darkcyan.json"
+      },
+      {
+        "id": "papirus-deeporange",
+        "title": "Papirus Deep Orange",
+        "path": "icons/themes/deeporange.json"
+      },
+      {
+        "id": "papirus-green",
+        "title": "Papirus Green",
+        "path": "icons/themes/green.json"
+      },
+      {
+        "id": "papirus-grey",
+        "title": "Papirus Grey",
+        "path": "icons/themes/grey.json"
+      },
+      {
+        "id": "papirus-indigo",
+        "title": "Papirus Indigo",
+        "path": "icons/themes/indigo.json"
+      },
+      {
+        "id": "papirus-magenta",
+        "title": "Papirus Magenta",
+        "path": "icons/themes/magenta.json"
+      },
+      {
+        "id": "papirus-nordic",
+        "title": "Papirus Nordic",
+        "path": "icons/themes/nordic.json"
+      },
+      {
+        "id": "papirus-orange",
+        "title": "Papirus Orange",
+        "path": "icons/themes/orange.json"
+      },
+      {
+        "id": "papirus-palebrown",
+        "title": "Papirus Pale Brown",
+        "path": "icons/themes/palebrown.json"
+      },
+      {
+        "id": "papirus-paleorange",
+        "title": "Papirus Pale Orange",
+        "path": "icons/themes/paleorange.json"
+      },
+      {
+        "id": "papirus-pink",
+        "title": "Papirus Pink",
+        "path": "icons/themes/pink.json"
+      },
+      {
+        "id": "papirus-red",
+        "title": "Papirus Red",
+        "path": "icons/themes/red.json"
+      },
+      {
+        "id": "papirus-teal",
+        "title": "Papirus Teal",
+        "path": "icons/themes/teal.json"
+      },
+      {
+        "id": "papirus-violet",
+        "title": "Papirus Violet",
+        "path": "icons/themes/violet.json"
+      },
+      {
+        "id": "papirus-white",
+        "title": "Papirus White",
+        "path": "icons/themes/white.json"
+      },
+      {
+        "id": "papirus-yaru",
+        "title": "Papirus Yaru",
+        "path": "icons/themes/yaru.json"
+      },
+      {
+        "id": "papirus-yellow",
+        "title": "Papirus Yellow",
+        "path": "icons/themes/yellow.json"
+      }
+    ]
+  },
+  "capabilities": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "orca-papirus-icon-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Papirus file and folder icons for Orca, with 25 selectable folder colors.",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/marcelofrau/orca-papirus-icon-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelofrau/orca-papirus-icon-theme.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "validate": "orca plugin validate ."
+  }
+}
