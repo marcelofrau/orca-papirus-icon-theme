@@ -10,6 +10,8 @@ const OUT_ICONS = path.join(ROOT, 'icons')
 const ICON_SVG_MAX_BYTES = 64 * 1024
 const MAX_MAPPINGS = 512
 const MAX_ICON_THEMES = 32
+// Orca's file tree box is 12 px; this fills it as far as the artwork allows.
+const ZOOM = 1.2
 
 const sourceArg = process.argv.indexOf('--source')
 const SOURCE =
@@ -22,7 +24,6 @@ const extensions = readJson(path.join(ROOT, 'data', 'extensions.json'))
 const filenames = readJson(path.join(ROOT, 'data', 'filenames.json'))
 const folders = readJson(path.join(ROOT, 'data', 'folders.json'))
 const variants = readJson(path.join(ROOT, 'data', 'variants.json'))
-const sizes = readJson(path.join(ROOT, 'data', 'sizes.json'))
 const bounds = readJson(path.join(ROOT, 'data', 'icon-bounds.json'))
 const pkg = readJson(path.join(ROOT, 'package.json'))
 
@@ -68,16 +69,15 @@ function assertRenderable(text, label) {
 }
 
 // Orca draws plugin icons with background-size: contain, so a tighter viewBox is the
-// only way a plugin can render artwork larger inside the fixed row height. Bounds keep
-// tall or edge-to-edge icons from being clipped when the artwork is zoomed.
-function sizedSvg(text, zoom, boundsKey) {
-  if (zoom === 1) return text
+// only way a plugin can make artwork larger inside the fixed 12 px row box. Bounds
+// keep tall or edge-to-edge icons from clipping.
+function sizedSvg(text, boundsKey) {
   const box = bounds[boundsKey]
-  let scale = zoom
+  let scale = ZOOM
   let centerX = 24
   let centerY = 24
   if (box) {
-    scale = Math.max(1, Math.min(zoom, 48 / Math.max(box.w, box.h)))
+    scale = Math.max(1, Math.min(ZOOM, 48 / Math.max(box.w, box.h)))
     centerX = box.x + box.w / 2
     centerY = box.y + box.h / 2
   }
@@ -93,102 +93,90 @@ function sizedSvg(text, zoom, boundsKey) {
 
 fs.rmSync(OUT_ICONS, { recursive: true, force: true })
 
-const themes = []
-const iconCache = new Map() // `${sizeId}:${relative}` -> output path
+const iconCache = new Map()
 
-function iconFor(size, reference, label) {
+function iconFor(reference, label) {
   const relative = reference.startsWith('apps:')
     ? `apps/${reference.slice('apps:'.length)}`
     : `mimetypes/${reference}`
-  const key = `${size.id}:${relative}`
-  if (!iconCache.has(key)) {
-    const boundsKey = `files/${relative.replace(/[/]/g, '__')}`
-    const text = sizedSvg(readIcon(relative), size.zoom, boundsKey)
+  if (!iconCache.has(relative)) {
+    const text = sizedSvg(readIcon(relative), `files/${relative.replace(/[/]/g, '__')}`)
     assertRenderable(text, label)
-    const output = `icons/${size.id}/files/${relative.replace(/[/]/g, '__')}.svg`
+    const output = `icons/files/${relative.replace(/[/]/g, '__')}.svg`
     fs.mkdirSync(path.dirname(path.join(ROOT, output)), { recursive: true })
     fs.writeFileSync(path.join(ROOT, output), text)
-    iconCache.set(key, output)
+    iconCache.set(relative, output)
   }
-  return iconCache.get(key)
+  return iconCache.get(relative)
 }
 
-function writeFolderIcon(size, name, relative, boundsKey) {
-  const text = sizedSvg(readIcon(relative), size.zoom, `folders/${boundsKey}`)
+function writeFolderIcon(name, relative, boundsKey) {
+  const text = sizedSvg(readIcon(relative), `folders/${boundsKey}`)
   assertRenderable(text, relative)
-  const output = `icons/${size.id}/folders/${name}.svg`
+  const output = `icons/folders/${name}.svg`
   fs.mkdirSync(path.dirname(path.join(ROOT, output)), { recursive: true })
   fs.writeFileSync(path.join(ROOT, output), text)
   return output
 }
 
-for (const size of sizes) {
-  const fileIcons = new Map()
-  for (const [ext, reference] of Object.entries(extensions)) {
-    fileIcons.set(ext, iconFor(size, reference, `extension .${ext}`))
+const fileIcons = new Map()
+for (const [ext, reference] of Object.entries(extensions)) {
+  fileIcons.set(ext, iconFor(reference, `extension .${ext}`))
+}
+const nameIcons = new Map()
+for (const [name, reference] of Object.entries(filenames)) {
+  nameIcons.set(name, iconFor(reference, `file ${name}`))
+}
+
+const themes = []
+for (const [color, label] of Object.entries(variants)) {
+  const folder = writeFolderIcon(color, `places/folder-${color}`, 'default')
+  const folderOpen = writeFolderIcon(`${color}-open`, `places/folder-${color}-open`, 'open')
+
+  const folderNames = {}
+  for (const [name, category] of Object.entries(folders.closed)) {
+    folderNames[name] = writeFolderIcon(`${color}-${category}`, `places/folder-${color}-${category}`, category)
   }
-  const nameIcons = new Map()
-  for (const [name, reference] of Object.entries(filenames)) {
-    nameIcons.set(name, iconFor(size, reference, `file ${name}`))
+  const folderNamesExpanded = {}
+  for (const [name, category] of Object.entries(folders.expanded)) {
+    folderNamesExpanded[name] = writeFolderIcon(
+      `${color}-${category}-open`,
+      `places/folder-${color}-${category}-open`,
+      `${category}-open`
+    )
   }
 
-  for (const [color, label] of Object.entries(variants)) {
-    if (size.colors !== 'all' && !size.colors.includes(color)) continue
-
-    const folder = writeFolderIcon(size, `${color}`, `places/folder-${color}`, 'default')
-    const folderOpen = writeFolderIcon(size, `${color}-open`, `places/folder-${color}-open`, 'open')
-
-    const folderNames = {}
-    for (const [name, category] of Object.entries(folders.closed)) {
-      folderNames[name] = writeFolderIcon(
-        size,
-        `${color}-${category}`,
-        `places/folder-${color}-${category}`,
-        category
-      )
-    }
-    const folderNamesExpanded = {}
-    for (const [name, category] of Object.entries(folders.expanded)) {
-      folderNamesExpanded[name] = writeFolderIcon(
-        size,
-        `${color}-${category}-open`,
-        `places/folder-${color}-${category}-open`,
-        `${category}-open`
-      )
-    }
-
-    const theme = {
-      schemaVersion: 1,
-      icons: {
-        file: iconFor(size, 'text-x-generic', 'fallback file'),
-        folder,
-        'folder-open': folderOpen
-      },
-      fileNames: Object.fromEntries(nameIcons),
-      fileExtensions: Object.fromEntries(fileIcons),
-      folderNames,
-      folderNamesExpanded
-    }
-
-    const refs = [
-      ...Object.values(theme.icons),
-      ...Object.values(theme.fileNames),
-      ...Object.values(theme.fileExtensions),
-      ...Object.values(theme.folderNames),
-      ...Object.values(theme.folderNamesExpanded)
-    ]
-    if (refs.length > MAX_MAPPINGS) fail(`${color}: ${refs.length} mappings (max ${MAX_MAPPINGS})`)
-    if (new Set(refs).size > MAX_MAPPINGS) fail(`${color}: too many distinct icons`)
-    for (const ref of refs) {
-      if (!fs.existsSync(path.join(ROOT, ref))) fail(`${color}: missing generated ${ref}`)
-    }
-
-    const id = size.id === 'normal' ? `papirus-${color}` : `papirus-${color}-${size.id}`
-    const themePath = `icons/themes/${id}.json`
-    fs.mkdirSync(path.join(OUT_ICONS, 'themes'), { recursive: true })
-    fs.writeFileSync(path.join(ROOT, themePath), JSON.stringify(theme, null, 2) + '\n')
-    themes.push({ id, title: `Papirus ${label}${size.label}`, path: themePath })
+  const theme = {
+    schemaVersion: 1,
+    icons: {
+      file: iconFor('text-x-generic', 'fallback file'),
+      folder,
+      'folder-open': folderOpen
+    },
+    fileNames: Object.fromEntries(nameIcons),
+    fileExtensions: Object.fromEntries(fileIcons),
+    folderNames,
+    folderNamesExpanded
   }
+
+  const refs = [
+    ...Object.values(theme.icons),
+    ...Object.values(theme.fileNames),
+    ...Object.values(theme.fileExtensions),
+    ...Object.values(theme.folderNames),
+    ...Object.values(theme.folderNamesExpanded)
+  ]
+  if (refs.length > MAX_MAPPINGS) fail(`${color}: ${refs.length} mappings (max ${MAX_MAPPINGS})`)
+  if (new Set(refs).size > MAX_MAPPINGS) fail(`${color}: too many distinct icons`)
+  for (const ref of refs) {
+    if (!fs.existsSync(path.join(ROOT, ref))) fail(`${color}: missing generated ${ref}`)
+  }
+
+  const id = `papirus-${color}`
+  const themePath = `icons/themes/${id}.json`
+  fs.mkdirSync(path.join(OUT_ICONS, 'themes'), { recursive: true })
+  fs.writeFileSync(path.join(ROOT, themePath), JSON.stringify(theme, null, 2) + '\n')
+  themes.push({ id, title: `Papirus ${label}`, path: themePath })
 }
 
 if (themes.length > MAX_ICON_THEMES) fail(`${themes.length} icon themes (max ${MAX_ICON_THEMES})`)
@@ -198,7 +186,7 @@ const manifest = {
   id: 'papirus-icon-theme',
   name: 'Papirus Icon Theme',
   version: pkg.version,
-  description: 'Papirus file and folder icons for Orca, with selectable folder colors and icon sizes.',
+  description: 'Papirus file and folder icons for Orca, with 25 selectable folder colors.',
   author: { name: 'Marcelo Frau', url: 'https://github.com/marcelofrau' },
   license: 'GPL-3.0-only',
   repository: 'https://github.com/marcelofrau/orca-papirus-icon-theme',

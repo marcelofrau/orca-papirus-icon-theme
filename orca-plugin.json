@@ -2,8 +2,8 @@
   "manifestVersion": 2,
   "id": "papirus-icon-theme",
   "name": "Papirus Icon Theme",
-  "version": "1.1.0",
-  "description": "Papirus file and folder icons for Orca, with selectable folder colors and icon sizes.",
+  "version": "2.0.0",
+  "description": "Papirus file and folder icons for Orca, with 25 selectable folder colors.",
   "author": {
     "name": "Marcelo Frau",
     "url": "https://github.com/marcelofrau"
@@ -141,41 +141,6 @@
         "id": "papirus-yellow",
         "title": "Papirus Yellow",
         "path": "icons/themes/papirus-yellow.json"
-      },
-      {
-        "id": "papirus-blue-large",
-        "title": "Papirus Blue Large",
-        "path": "icons/themes/papirus-blue-large.json"
-      },
-      {
-        "id": "papirus-green-large",
-        "title": "Papirus Green Large",
-        "path": "icons/themes/papirus-green-large.json"
-      },
-      {
-        "id": "papirus-orange-large",
-        "title": "Papirus Orange Large",
-        "path": "icons/themes/papirus-orange-large.json"
-      },
-      {
-        "id": "papirus-pink-large",
-        "title": "Papirus Pink Large",
-        "path": "icons/themes/papirus-pink-large.json"
-      },
-      {
-        "id": "papirus-red-large",
-        "title": "Papirus Red Large",
-        "path": "icons/themes/papirus-red-large.json"
-      },
-      {
-        "id": "papirus-teal-large",
-        "title": "Papirus Teal Large",
-        "path": "icons/themes/papirus-teal-large.json"
-      },
-      {
-        "id": "papirus-violet-large",
-        "title": "Papirus Violet Large",
-        "path": "icons/themes/papirus-violet-large.json"
       }
     ]
   },

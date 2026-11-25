@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 — 2026-11-25
+
+- Ships only the maximized artwork: 25 themes, one per folder color, no separate
+  Large set and no `Large` suffix in theme names.
+- Per-icon content bounds keep tall icons from clipping at the 1.2× zoom.
+- Breaking: theme ids changed from `papirus-<color>-large` to `papirus-<color>`.
+  Reselect the theme after updating.
+
 ## 1.1.0 — 2026-11-25
 
 - Adds Large icon themes (1.2× artwork) for Blue, Teal, Orange, Red, Green,
