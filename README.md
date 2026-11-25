@@ -111,6 +111,22 @@ application icons, but Orca's toolbar, sidebar, button and status icons are buil
 into the app and are not part of an icon theme. Replacing those would require
 patching Orca's internal assets, which breaks on updates.
 
+## Why file tree icons look small
+
+Orca renders file tree icons in a fixed 12 px box (`size-3` in its UI). An icon
+theme can only scale artwork **inside** that box; it cannot change the box itself.
+The Large themes already fill as much of the 12 px box as the artwork allows
+without clipping.
+
+To make the file tree itself larger:
+
+- Use Orca's UI zoom (`Ctrl` `+` / `Ctrl` `-`, or the `zoom.in` / `zoom.out`
+  commands). This scales the whole interface, including the 12 px icon box.
+- Ask Orca upstream for a file-tree icon size setting, or for plugin icons to use
+  `size-3.5` / `size-4` instead of `size-3`.
+- Patch Orca's renderer CSS locally. This is an app-level override: it breaks on
+  every Orca update and is not something a plugin can ship.
+
 ## Development
 
 The generated `icons/` folder and `orca-plugin.json` are committed, so installing
