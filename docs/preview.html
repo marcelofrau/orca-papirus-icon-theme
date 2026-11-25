@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Papirus Icon Theme for Orca</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; }
+      body {
+        width: 1600px;
+        height: 1000px;
+        padding: 58px 64px 44px;
+        color: #e6e6f0;
+        font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+        background:
+          radial-gradient(900px 420px at 12% -10%, rgba(82, 148, 226, 0.28), transparent 65%),
+          radial-gradient(760px 420px at 96% 4%, rgba(255, 121, 198, 0.16), transparent 60%),
+          #0c0e14;
+      }
+      .eyebrow {
+        color: #82cfff;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 8px 0 6px;
+        font-size: 54px;
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+      .subtitle {
+        margin: 0;
+        color: #a5a7b8;
+        font-size: 21px;
+      }
+      .panels {
+        display: grid;
+        gap: 20px;
+        margin-top: 34px;
+      }
+      .panel {
+        padding: 24px 28px 26px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 22px;
+        background: rgba(22, 24, 34, 0.86);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+      }
+      .panel-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 18px;
+      }
+      .panel-head h2 {
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: -0.01em;
+      }
+      .panel-head span {
+        color: #7f8194;
+        font-size: 14px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        gap: 12px 10px;
+      }
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        padding: 10px 4px 8px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.025);
+      }
+      .item img { width: 46px; height: 46px; object-fit: contain; }
+      .item span { color: #b9bac9; font-size: 12.5px; white-space: nowrap; }
+      .files .item img { width: 42px; height: 42px; }
+      .files .item span { color: #9fa1b3; }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        color: #6e7082;
+        font-size: 13px;
+      }
+      .footer b { color: #9fa1b3; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <div class="eyebrow">Orca Plugin</div>
+    <h1>Papirus Icon Theme</h1>
+    <p class="subtitle">25 folder colors · 322 file extensions · normal and large sizes</p>
+
+    <div class="panels">
+      <section class="panel folders">
+        <div class="panel-head">
+          <h2>Folder colors</h2>
+          <span>Papirus folder variants</span>
+        </div>
+        <div class="grid">
+          <div class="item"><img src="../icons/normal/folders/blue.svg" /><span>Blue</span></div>
+          <div class="item"><img src="../icons/normal/folders/teal.svg" /><span>Teal</span></div>
+          <div class="item"><img src="../icons/normal/folders/orange.svg" /><span>Orange</span></div>
+          <div class="item"><img src="../icons/normal/folders/red.svg" /><span>Red</span></div>
+          <div class="item"><img src="../icons/normal/folders/green.svg" /><span>Green</span></div>
+          <div class="item"><img src="../icons/normal/folders/violet.svg" /><span>Violet</span></div>
+          <div class="item"><img src="../icons/normal/folders/pink.svg" /><span>Pink</span></div>
+          <div class="item"><img src="../icons/normal/folders/yellow.svg" /><span>Yellow</span></div>
+          <div class="item"><img src="../icons/normal/folders/magenta.svg" /><span>Magenta</span></div>
+          <div class="item"><img src="../icons/normal/folders/cyan.svg" /><span>Cyan</span></div>
+          <div class="item"><img src="../icons/normal/folders/indigo.svg" /><span>Indigo</span></div>
+          <div class="item"><img src="../icons/normal/folders/brown.svg" /><span>Brown</span></div>
+          <div class="item"><img src="../icons/normal/folders/grey.svg" /><span>Grey</span></div>
+          <div class="item"><img src="../icons/normal/folders/black.svg" /><span>Black</span></div>
+          <div class="item"><img src="../icons/normal/folders/white.svg" /><span>White</span></div>
+          <div class="item"><img src="../icons/normal/folders/nordic.svg" /><span>Nordic</span></div>
+          <div class="item"><img src="../icons/normal/folders/deeporange.svg" /><span>Deep Orange</span></div>
+          <div class="item"><img src="../icons/normal/folders/palebrown.svg" /><span>Pale Brown</span></div>
+          <div class="item"><img src="../icons/normal/folders/paleorange.svg" /><span>Pale Orange</span></div>
+          <div class="item"><img src="../icons/normal/folders/carmine.svg" /><span>Carmine</span></div>
+          <div class="item"><img src="../icons/normal/folders/darkcyan.svg" /><span>Dark Cyan</span></div>
+          <div class="item"><img src="../icons/normal/folders/bluegrey.svg" /><span>Blue Grey</span></div>
+          <div class="item"><img src="../icons/normal/folders/breeze.svg" /><span>Breeze</span></div>
+          <div class="item"><img src="../icons/normal/folders/yaru.svg" /><span>Yaru</span></div>
+          <div class="item"><img src="../icons/normal/folders/adwaita.svg" /><span>Adwaita</span></div>
+        </div>
+      </section>
+
+      <section class="panel files">
+        <div class="panel-head">
+          <h2>File icons</h2>
+          <span>Mimetypes, apps and project files</span>
+        </div>
+        <div class="grid">
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-python.svg" /><span>Python</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-rust.svg" /><span>Rust</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-javascript.svg" /><span>JavaScript</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-go.svg" /><span>Go</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-java.svg" /><span>Java</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-kotlin.svg" /><span>Kotlin</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-csharp.svg" /><span>C#</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-c++src.svg" /><span>C++</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-markdown.svg" /><span>Markdown</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__application-json.svg" /><span>JSON</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__application-yaml.svg" /><span>YAML</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__application-toml.svg" /><span>TOML</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__application-xml.svg" /><span>XML</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-sql.svg" /><span>SQL</span></div>
+          <div class="item"><img src="../icons/normal/files/apps__git.svg" /><span>Git</span></div>
+          <div class="item"><img src="../icons/normal/files/apps__docker-desktop.svg" /><span>Docker</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-readme.svg" /><span>README</span></div>
+          <div class="item"><img src="../icons/normal/files/mimetypes__text-x-copying.svg" /><span>License</span></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer">
+      <span><b>GPL-3.0</b> · Papirus artwork by the Papirus Development Team</span>
+      <span>github.com/marcelofrau/orca-papirus-icon-theme</span>
+    </div>
+  </body>
+</html>
