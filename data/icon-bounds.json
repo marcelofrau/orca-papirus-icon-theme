@@ -1,0 +1,1322 @@
+{
+  "folders/development": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-common-lisp": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-mpeg": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-lua": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__video-x-flv": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/documents-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/apps__git": {
+    "w": 43,
+    "h": 44,
+    "x": 3,
+    "y": 3
+  },
+  "files/mimetypes__application-vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-ipynb+json": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/pictures-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/music-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-authors": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-rss+xml": {
+    "w": 37,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__text-x-javascript": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-patch": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__openoffice4-oasis-presentation": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__font-otf": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-xhtml+xml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-lzma-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__video-x-matroska": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/publicshare-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-shellscript": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-csharp": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-vorbis+ogg": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-compress": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-vmdk-disk": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-nim": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__x-office-spreadsheet": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-executable": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-x-apple-diskimage": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/applications": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-gradle": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.debian.binary-package": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-x-emacs-lisp": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-object": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-mbox": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-qemu-disk": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-c++src": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/default": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-objc++src": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-qml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/script": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-vnd.appimage": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__video-x-generic": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__image-bmp": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/gitlab": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__image-x-eps": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/templates-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__image-png": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/remote-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__image-vnd.djvu": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__video-webm": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-source-rpm": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__video-mp4": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-gpx+xml": {
+    "w": 44,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "folders/open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__audio-x-aiff": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-msi": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-org": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-illustrator": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-yaml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-x-tga": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__image-vnd.dxf": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-svg+xml": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__audio-ac3": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-generic": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-ocaml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-vue": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-changelog": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/git": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-copying": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-vnd.microsoft.icon": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__font-ttf": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.google-earth.kmz": {
+    "w": 44,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__application-x-bittorrent": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-julia": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-atom+xml": {
+    "w": 37,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__application-vnd.rn-realmedia": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "folders/pictures": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-r-source": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-nix": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-elixir": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__font-woff2": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-gif": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-krita": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-nfo": {
+    "w": 37,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__application-x-bzip1": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-vcard": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/github": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-vnd.amazon.mobi8-ebook": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-sass": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-haskell": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.google-earth.kml+xml": {
+    "w": 44,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__text-x-markdown": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-blender": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-zstd-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-x-ms-dos-executable": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-x-rust": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-fictionbook+xml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-justfile": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-tiff": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-json": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-perl": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-c++hdr": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-ms-regedit": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__openoffice4-oasis-spreadsheet": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-vnd.adobe.photoshop": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-ld+json": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-python": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__message-rfc822": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__video-x-ogm+ogg": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-scala": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-xslt+xml": {
+    "w": 37,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__font-woff": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/public": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-toml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-rar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__audio-vnd.wave": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-bzip2-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-tta": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/apps__docker-desktop": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-javascript": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-objcsrc": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__x-office-presentation": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-asciidoc": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.sqlite3": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-xz-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-pdf": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-bibtex": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-vnd.dwg": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-calendar": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-opml+xml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-lzip-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-x-ssa": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-makefile": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-systemd-unit": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-scheme": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-x-generic": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-zig": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-chdr": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-java": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-x-xcf": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-vbscript": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-crystal": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-awk": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-mobipocket-ebook": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-matroska": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/backup": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-microdvd": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-7zip": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.coffeescript": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-zip": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-x-go": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-php": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-plain": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-lz4-compressed-tar": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-x-sqlite2": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-kotlin": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__openoffice4-oasis-text": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-desktop": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "folders/documents": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-tex": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-flac": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-mp4": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-ms-wma": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.flatpak": {
+    "w": 37,
+    "h": 42,
+    "x": 6,
+    "y": 4
+  },
+  "files/mimetypes__image-svg+xml-compressed": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-font-type1": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-erlang": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-fsharp": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-ms-wim": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-x-vhd-disk": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-raw-disk-image": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-tab-separated-values": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-cmake": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-python-bytecode": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-iso": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-css": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-asm": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/videos-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-xml": {
+    "w": 37,
+    "h": 46,
+    "x": 4,
+    "y": 0
+  },
+  "files/mimetypes__text-html": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/download-open": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-gzip": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-rdf+xml": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-java": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__video-x-ms-wmv": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-ruby": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-csv": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-midi": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-sharedlib": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-epub+zip": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-log": {
+    "w": 35,
+    "h": 42,
+    "x": 7,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-font-afm": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "folders/code": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__x-office-document": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-monkey": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-x-adobe-dng": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-nintendo-3ds-rom": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-readme": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__font-collection": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-dart": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__text-x-diff": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-sql": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__text-x-csrc": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__font-x-generic": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__audio-x-generic": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-cue": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-bzip": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-x-subrip": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__application-x-java-archive": {
+    "w": 41,
+    "h": 42,
+    "x": 4,
+    "y": 4
+  },
+  "files/mimetypes__application-x-vdi-disk": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__video-mp2t": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  },
+  "files/mimetypes__text-x-scss": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__application-vnd.android.package-archive": {
+    "w": 33,
+    "h": 42,
+    "x": 8,
+    "y": 4
+  },
+  "files/mimetypes__image-jpeg": {
+    "w": 41,
+    "h": 38,
+    "x": 4,
+    "y": 6
+  }
+}

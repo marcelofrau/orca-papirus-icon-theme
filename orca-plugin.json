@@ -2,8 +2,8 @@
   "manifestVersion": 2,
   "id": "papirus-icon-theme",
   "name": "Papirus Icon Theme",
-  "version": "1.0.0",
-  "description": "Papirus file and folder icons for Orca, with 25 selectable folder colors.",
+  "version": "1.1.0",
+  "description": "Papirus file and folder icons for Orca, with selectable folder colors and icon sizes.",
   "author": {
     "name": "Marcelo Frau",
     "url": "https://github.com/marcelofrau"
@@ -20,127 +20,162 @@
       {
         "id": "papirus-adwaita",
         "title": "Papirus Adwaita",
-        "path": "icons/themes/adwaita.json"
+        "path": "icons/themes/papirus-adwaita.json"
       },
       {
         "id": "papirus-black",
         "title": "Papirus Black",
-        "path": "icons/themes/black.json"
+        "path": "icons/themes/papirus-black.json"
       },
       {
         "id": "papirus-blue",
         "title": "Papirus Blue",
-        "path": "icons/themes/blue.json"
+        "path": "icons/themes/papirus-blue.json"
       },
       {
         "id": "papirus-bluegrey",
         "title": "Papirus Blue Grey",
-        "path": "icons/themes/bluegrey.json"
+        "path": "icons/themes/papirus-bluegrey.json"
       },
       {
         "id": "papirus-breeze",
         "title": "Papirus Breeze",
-        "path": "icons/themes/breeze.json"
+        "path": "icons/themes/papirus-breeze.json"
       },
       {
         "id": "papirus-brown",
         "title": "Papirus Brown",
-        "path": "icons/themes/brown.json"
+        "path": "icons/themes/papirus-brown.json"
       },
       {
         "id": "papirus-carmine",
         "title": "Papirus Carmine",
-        "path": "icons/themes/carmine.json"
+        "path": "icons/themes/papirus-carmine.json"
       },
       {
         "id": "papirus-cyan",
         "title": "Papirus Cyan",
-        "path": "icons/themes/cyan.json"
+        "path": "icons/themes/papirus-cyan.json"
       },
       {
         "id": "papirus-darkcyan",
         "title": "Papirus Dark Cyan",
-        "path": "icons/themes/darkcyan.json"
+        "path": "icons/themes/papirus-darkcyan.json"
       },
       {
         "id": "papirus-deeporange",
         "title": "Papirus Deep Orange",
-        "path": "icons/themes/deeporange.json"
+        "path": "icons/themes/papirus-deeporange.json"
       },
       {
         "id": "papirus-green",
         "title": "Papirus Green",
-        "path": "icons/themes/green.json"
+        "path": "icons/themes/papirus-green.json"
       },
       {
         "id": "papirus-grey",
         "title": "Papirus Grey",
-        "path": "icons/themes/grey.json"
+        "path": "icons/themes/papirus-grey.json"
       },
       {
         "id": "papirus-indigo",
         "title": "Papirus Indigo",
-        "path": "icons/themes/indigo.json"
+        "path": "icons/themes/papirus-indigo.json"
       },
       {
         "id": "papirus-magenta",
         "title": "Papirus Magenta",
-        "path": "icons/themes/magenta.json"
+        "path": "icons/themes/papirus-magenta.json"
       },
       {
         "id": "papirus-nordic",
         "title": "Papirus Nordic",
-        "path": "icons/themes/nordic.json"
+        "path": "icons/themes/papirus-nordic.json"
       },
       {
         "id": "papirus-orange",
         "title": "Papirus Orange",
-        "path": "icons/themes/orange.json"
+        "path": "icons/themes/papirus-orange.json"
       },
       {
         "id": "papirus-palebrown",
         "title": "Papirus Pale Brown",
-        "path": "icons/themes/palebrown.json"
+        "path": "icons/themes/papirus-palebrown.json"
       },
       {
         "id": "papirus-paleorange",
         "title": "Papirus Pale Orange",
-        "path": "icons/themes/paleorange.json"
+        "path": "icons/themes/papirus-paleorange.json"
       },
       {
         "id": "papirus-pink",
         "title": "Papirus Pink",
-        "path": "icons/themes/pink.json"
+        "path": "icons/themes/papirus-pink.json"
       },
       {
         "id": "papirus-red",
         "title": "Papirus Red",
-        "path": "icons/themes/red.json"
+        "path": "icons/themes/papirus-red.json"
       },
       {
         "id": "papirus-teal",
         "title": "Papirus Teal",
-        "path": "icons/themes/teal.json"
+        "path": "icons/themes/papirus-teal.json"
       },
       {
         "id": "papirus-violet",
         "title": "Papirus Violet",
-        "path": "icons/themes/violet.json"
+        "path": "icons/themes/papirus-violet.json"
       },
       {
         "id": "papirus-white",
         "title": "Papirus White",
-        "path": "icons/themes/white.json"
+        "path": "icons/themes/papirus-white.json"
       },
       {
         "id": "papirus-yaru",
         "title": "Papirus Yaru",
-        "path": "icons/themes/yaru.json"
+        "path": "icons/themes/papirus-yaru.json"
       },
       {
         "id": "papirus-yellow",
         "title": "Papirus Yellow",
-        "path": "icons/themes/yellow.json"
+        "path": "icons/themes/papirus-yellow.json"
+      },
+      {
+        "id": "papirus-blue-large",
+        "title": "Papirus Blue Large",
+        "path": "icons/themes/papirus-blue-large.json"
+      },
+      {
+        "id": "papirus-green-large",
+        "title": "Papirus Green Large",
+        "path": "icons/themes/papirus-green-large.json"
+      },
+      {
+        "id": "papirus-orange-large",
+        "title": "Papirus Orange Large",
+        "path": "icons/themes/papirus-orange-large.json"
+      },
+      {
+        "id": "papirus-pink-large",
+        "title": "Papirus Pink Large",
+        "path": "icons/themes/papirus-pink-large.json"
+      },
+      {
+        "id": "papirus-red-large",
+        "title": "Papirus Red Large",
+        "path": "icons/themes/papirus-red-large.json"
+      },
+      {
+        "id": "papirus-teal-large",
+        "title": "Papirus Teal Large",
+        "path": "icons/themes/papirus-teal-large.json"
+      },
+      {
+        "id": "papirus-violet-large",
+        "title": "Papirus Violet Large",
+        "path": "icons/themes/papirus-violet-large.json"
       }
     ]
   },

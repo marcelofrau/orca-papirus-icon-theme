@@ -1,0 +1,14 @@
+[
+  {
+    "id": "normal",
+    "label": "",
+    "zoom": 1,
+    "colors": "all"
+  },
+  {
+    "id": "large",
+    "label": " Large",
+    "zoom": 1.2,
+    "colors": ["blue", "teal", "orange", "red", "green", "violet", "pink"]
+  }
+]

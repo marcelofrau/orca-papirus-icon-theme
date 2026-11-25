@@ -13,6 +13,17 @@ Adwaita · Black · Blue · Blue Grey · Breeze · Brown · Carmine · Cyan · D
 Deep Orange · Green · Grey · Indigo · Magenta · Nordic · Orange · Pale Brown ·
 Pale Orange · Pink · Red · Teal · Violet · White · Yaru · Yellow
 
+Each color also has a **Large** variant for Blue, Teal, Orange, Red, Green, Violet
+and Pink. Large themes zoom the artwork 1.2× inside the same row height. Orca caps
+a plugin at 32 icon themes, which is why only those seven colors get a Large theme
+by default; `data/sizes.json` controls the list.
+
+<!-- prettier-ignore -->
+> Orca sets the file-tree icon box; a plugin cannot change the row height. The Large
+> themes only scale the artwork inside that box. To change the whole UI scale, use
+> Orca's zoom shortcuts.
+
+
 ## Coverage
 
 - 322 file extensions (code, config, documents, images, audio, video, archives,
@@ -48,9 +59,11 @@ To uninstall: `orca plugin uninstall marcelofrau.papirus-icon-theme`.
 
 ## What it does not change
 
-Orca's plugin API exposes **file and folder icons only**. Toolbar, sidebar, button
-and status icons are part of Orca's own interface and are not covered by an icon
-theme, so they stay as they are.
+Orca's plugin API exposes **file and folder icons only**. Papirus itself has
+thousands of application icons, but Orca's toolbar, sidebar, button and status
+icons are built into the app and are not part of an icon theme, so they stay as
+they are. Replacing them would mean patching Orca's internal assets, which breaks
+on updates.
 
 ## Development
 
@@ -78,6 +91,8 @@ The mapping lives in `data/`:
 | `filenames.json` | exact lower-case file name to Papirus icon |
 | `folders.json` | folder name to Papirus folder category, closed and expanded |
 | `variants.json` | folder color to display label |
+| `sizes.json` | size variants, artwork zoom and which colors get each size |
+| `icon-bounds.json` | content bounds used to zoom each Large icon without clipping |
 | `upstream.json` | Papirus release and commit used for the committed icons |
 
 Papirus icon references are mimetype names (`text-x-python`) or app icons with an
