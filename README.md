@@ -72,8 +72,7 @@ edge-to-edge icons are not clipped.
 | Expanded folder names | 16 | `docs`, `downloads`, `pictures`, `videos`, `templates`, `remote` |
 
 File type icons are shared by every color; only folder icons change color. Icons
-come from Papirus 48×48 artwork, which is what Papirus itself serves for 16 px
-lookups.
+come from Papirus's 48×48 artwork, which Orca scales down to the file tree.
 
 ## How it works
 
@@ -134,12 +133,12 @@ npm run validate
 | `data/folders.json` | folder name to Papirus folder category, closed and expanded |
 | `data/variants.json` | folder color to display label |
 | `data/icon-bounds.json` | content bounds used to zoom each icon without clipping |
-| `data/upstream.json` | Papirus release and commit used for the committed icons |
+| `data/upstream.json` | Papirus commit used for the committed icons, and the release it follows |
 
 Papirus references use mimetype names (`text-x-python`) or app icons with an
 `apps:` prefix (`apps:git`). After editing a map, rebuild and run
-`npm run validate`. Committed icons were generated from Papirus `a1fd8b31`
-(release `20250501`).
+`npm run validate`. Committed icons were generated from Papirus `master` at
+`a1fd8b31` (2026-06-28), 176 commits after release `20250501`.
 
 Load the checkout in place while developing; Orca reloads it on changes:
 
@@ -159,4 +158,6 @@ orca plugin dev load .
 
 Papirus artwork is GPL-3.0, © the
 [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
-The plugin itself is GPL-3.0. See [LICENSE](LICENSE).
+The SVGs in `icons/` are copies of that artwork: `tools/build.mjs` resolves
+Papirus symlinks and tightens each `viewBox` to the icon's content bounds, and
+nothing else. The plugin itself is GPL-3.0. See [LICENSE](LICENSE).

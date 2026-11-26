@@ -191,6 +191,7 @@ const manifest = {
   license: 'GPL-3.0-only',
   repository: 'https://github.com/marcelofrau/orca-papirus-icon-theme',
   homepage: 'https://github.com/marcelofrau/orca-papirus-icon-theme',
+  cover: { path: 'docs/preview.png', alt: 'Papirus folders in several colors and file icons for common file types' },
   engines: { orca: '>=1.4.246' },
   execution: 'data',
   contributes: { iconThemes: themes },
